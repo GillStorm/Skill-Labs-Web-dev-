@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:rgb(238, 234, 234);">
+
+    <img src="https://csitss.ieee-rvce.org/RVCE%20NEW-HEADER.png" width="200" size="300"></img>
+
+<h1 style="font-family:times new roman;text-align:center;">RV college of Engineering</h1>
+<h1 style="text-align:center;color:green">Registration Form</h1>
+<p style="font-size:150%;text-align:center">Fill in the details below to register for the course.</p>
+<form  action="/submit" method="post" style="text-align:center;">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter your name "><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email" placeholder="Enter your email"><br><br>
+  
+  <label for="age">Age:</label><br>
+  <input type="text" id="age" name="age" required><br><br>
+
+  <label for="gender">gender:</label><br>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="gender" value="male">
+
+  <label for="female">female</label>
+  <input type="radio" id="female" name="gender" value="female"><br><br>
+
+
+  <label for="course">Course:</label><br>
+  <select id="course" name="course" placeholder="Select your branch" >
+    <option value="webdev">Web Development</option>
+    <option value="datasci">Data Science</option>
+    <option value="cybersec">Cyber Security</option>
+    <option value="ai">Artificial Intelligence</option>
+  </select><br><br><br>
+  
+  <input type="submit" value="Submit">
+
+</form>
+<p style="text-align:center;font-size:150%">For further details,click the link below</p>
+<p style="text-align:center;">
+    Click here for the **<a href="https://rvce.edu.in/">RV College of Engineering website</a>**
+</p>
+</body>
+</html>
